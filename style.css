@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Màu nền nhẹ */
+}
+
+h1 {
+    color: #3b5998; /* Màu xanh Stork */
+}
+
+#gameCanvas {
+    /* Đặt đường viền cho khu vực chơi game */
+    border: 3px solid #3b5998; 
+    background-color: #70c5ce; /* Màu nền trời */
+    display: block;
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e95420; /* Màu cam Stork */
+}
+
+#start-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    pointer-events: none; 
+}
